@@ -110,6 +110,7 @@ jobs:
               with:
                 category: "/language:${{ matrix.language }}"
 
+
     # GATE#2: Dependency scanning via OWASP Dependency-Check (SARIF + HTML)
     dependency-scanning:
         runs-on: ubuntu-latest
