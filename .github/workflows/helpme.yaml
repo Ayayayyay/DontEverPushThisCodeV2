@@ -77,8 +77,7 @@ jobs:
               uses: SonarSource/sonarqube-scan-action@v3.1.0
               continue-on-error: true
               env:
-                  SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-                  SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+                  SONAR_TOKEN: 839c2584a4ab1afc77c1515b8d4613f14077f431
 
     # GATE#1b: SAST via CodeQL (results in GitHub Security tab)
     codeql-scan:
